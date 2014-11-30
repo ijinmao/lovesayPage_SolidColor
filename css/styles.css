@@ -146,12 +146,12 @@ h1 {
 }
 
 h2 {
-    font-size: 3.125rem;
+    font-size: 3.725rem;
     line-height: 4.063rem;
 }
 
 h3 {
-    font-size: 1.625rem;
+    font-size: 1.425rem;
     line-height: 38px;
     font-weight: 300;
 }
@@ -165,6 +165,14 @@ h4 {
 h5 {
     font-size: 18px;
     font-weight: 300;
+}
+
+.large-h3 h3{
+    font-size: 2.025rem;
+    line-height: 38px;
+    font-weight: 300;
+    color: #272727;
+
 }
 
 /*---------------------------------------
@@ -188,7 +196,9 @@ h5 {
 
 .standard-button:hover,
 .standard-button2:hover {
+    background-color: #ff3985;
     border: none;
+    color: #ffffff;
 }
 
 .standard-button i,
@@ -218,6 +228,11 @@ h5 {
 .pink-text{
     color: #ff658c;
     font-size: 34px;
+}
+
+.large-pink-text{
+    color: #ff658c;
+    font-size: 40px;
 }
 
 
@@ -264,7 +279,7 @@ h5 {
     float: left;
     z-index: 1;
     display: block;
-    width: 95px;
+    width: 92px;
     height: 1px;
 }
 
@@ -279,12 +294,15 @@ h5 {
 -----------------------------------------*/
 
 header {
-    background: url(../images/bg-0921.jpg) no-repeat center top fixed;
+    /*background: url(../images/bg-0921.jpg) no-repeat center top fixed;*/
     -webkit-background-size: cover;
             background-size: cover;
 }
 
-header .color-overlay {
+/*header .color-overlay {
+    min-height: 900px;
+}*/
+header .solid-color {
     min-height: 900px;
 }
 
@@ -472,7 +490,17 @@ header .intro-section .buttons {
     margin-bottom: 50px;
 }
 
+.app-brief .post-image {
+    max-width: 310px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
 .app-brief .phone-image img {
+    width: 100%;
+}
+
+.app-brief .post-image img {
     width: 100%;
 }
 
@@ -494,7 +522,7 @@ header .intro-section .buttons {
 
 .app-brief .left-align .feature-list li {
     margin-bottom: 26px;
-    font-size: 1.26rem;
+    font-size: 1.02rem;
 }
 
 .app-brief .left-align .feature-list li i {
@@ -849,6 +877,22 @@ jdn add
 -------*/
 .app-brief .left-align .blank-block{
     height: 100px;
+}
+
+.app-brief .post-area .blank-block{
+    height: 30px;
+}
+
+.app-brief .middle-align .dark-text{
+    padding-bottom: 50px;
+}
+
+#scrollUp {
+    background-image: url("../images/top_1px.png");
+    bottom: 20px;
+    right: 20px;
+    width: 50px;    /* Width of image */
+    height: 50px;   /* Height of image */
 }
 
 

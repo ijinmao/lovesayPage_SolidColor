@@ -59,6 +59,22 @@
 <!-- JQUERY -->
 <script src="http://ajax.useso.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
+
+<script>
+	$(function () {
+		$.scrollUp({
+		    animation: 'fade',
+		    //activeOverlay: '#00FFFF',
+		    topDistance: '200',
+		    scrollImg: {
+		        active: true,
+		        type: 'background',
+		        //src: 'images/top_1px.png'
+		    }
+		});
+	});
+</script>
+
 </head>
 
 <body>
@@ -75,7 +91,9 @@
 <header class="header" id="home">
 
 <!-- COLOR OVER IMAGE -->
-<div class="color-overlay"> <!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
+<!-- <div class="color-overlay">  -->
+	<!-- To make header full screen. Use .full-screen class with color overlay. Example: <div class="color-overlay full-screen">  -->
+<div class="solid-color full-screen"> <!-- To make header full screen. Use .full-screen class with solid-color. Example: <div class="solid-color full-screen">  -->
 
 	<!-- STICKY NAVIGATION -->
 	
@@ -102,6 +120,7 @@
 					
 					<!-- WELCOM MESSAGE -->
 					<h2 class="intro">女性情感社区</h2>
+					</br>
 					<h3 >听听姐妹们的情感经历</h3>
 					<h3 >说说你的情感故事</h3>
 					<!-- <h5>Apple store已上线</h5> -->
@@ -124,7 +143,7 @@
 			    
 			    <!-- PHONE IMAGE WILL BE HIDDEN IN TABLET PORTRAIT AND MOBILE-->
 			    <div class="phone-image">
-			    <img src="images/iphone_mockup1.png" class="img-responsive" alt="">
+			    <img src="http://womencommunity.qiniudn.com/landingpage/images/iphone_mockup1_1130.png" class="img-responsive" alt="">
 			    </div>
 			    
 			</div>
@@ -158,7 +177,7 @@
 		<!-- PHONES IMAGE -->
 		<div class="col-md-5">
 			<div class="phone-image">
-				<img src="images/iphone_mockup3.png" alt="">
+				<img src="http://womencommunity.qiniudn.com/landingpage/images/iphone_mockup2_1130.png" alt="">
 			</div>
 		</div>
 		
@@ -218,7 +237,7 @@
 			<ul class="feature-list">
 				<li>在「这里」记录一下哭会儿笑会儿的初恋</li>
 				<li>在「这里」吐槽一下不主动不成熟的男友</li>
-				<li>在「这里」发泄一下的委屈</li>
+				<li>在「这里」发泄一下被误解被排挤的委屈</li>
 			</ul>
 			
 		</div>
@@ -227,7 +246,7 @@
 		<!-- PHONES IMAGE -->
 		<div class="col-md-5" >
 			<div class="phone-image">
-				<img src="images/iphone_mockup2.png" alt="">
+				<img src="http://womencommunity.qiniudn.com/landingpage/images/iphone_mockup3_1130.png" alt="">
 			</div>
 		</div>
 		<!-- /END PHONES IMAGE -->
@@ -252,40 +271,102 @@
 <div class="container">
 	
 	<div class="row">
-		<div class="col-md-1">
+		<div class="col-md-2">
 		</div>
 		
-		<!-- PHONES IMAGE -->
-		<div class="col-md-5">
-			<div class="phone-image">
-				<img src="images/iphone_mockup3.png" alt="">
-			</div>
-		</div>
 		
 		<!-- RIGHT SIDE WITH BRIEF -->
-		<div class="col-md-6 left-align">
-			<div class="blank-block">
-			</div>
+		<div class="col-md-8 middle-align large-h3" >
+
 			<!-- SECTION TITLE -->
-			<h3 class="dark-text">「这里」是为 <span class="pink-text">妳</span> 而打造的情感交流圈</h3>
-			
-			<div class="colored-line-left">
-			</div>
-			
-			
-			<!-- FEATURE LIST -->
-			<!-- FEATURE LIST -->
-			<ul class="feature-list">
-				<li>到「这里」看到了不同人生的情感选择</li>
-				<li>到「这里」收到了姐姐妹妹的情感建议</li>
-				<li>到「这里」找到了互帮互助的情感闺蜜</li>
-			</ul>
+			<h3 class="dark-text"> 「这里」是为 <span class="large-pink-text">妳</span> 而打造的情感交流圈</h3>
 			
 		</div>
 		<!-- /END RIGHT BRIEF -->
+
+		<div class="col-md-2">
+		</div>
 		
 	</div>
 	<!-- /END ROW -->
+
+	<!-- 	BEGIN POST -->
+	<div class="row">
+		<div class="col-md-4 post-area">
+			<div class="blank-block">
+			</div>
+			<div class="post-image">
+				<img src="http://womencommunity.qiniudn.com/landingpage/images/post-blog1.png" alt="">
+			</div>
+		</div>
+		<div class="col-md-4 post-area">
+			<div class="blank-block">
+			</div>
+			<div class="post-image">
+				<img src="http://womencommunity.qiniudn.com/landingpage/images/post-blog1-review1.png" alt="">
+			</div>
+		</div>
+		<div class="col-md-4 post-area">
+			<div class="blank-block">
+			</div>
+			<div class="post-image">
+				<img src="http://womencommunity.qiniudn.com/landingpage/images/post-blog1-review2.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4 post-area">
+				<div class="blank-block">
+				</div>
+				<div class="post-image">
+					<img src="http://womencommunity.qiniudn.com/landingpage/images/post-blog2.png" alt="">
+				</div>
+		</div>
+		<div class="col-md-4 post-area">
+			<div class="blank-block">
+			</div>
+			<div class="post-image">
+				<img src="http://womencommunity.qiniudn.com/landingpage/images/post-blog2-review1.png" alt="">
+			</div>
+		</div>
+		<div class="col-md-4 post-area">
+			<div class="blank-block">
+			</div>
+			<div class="post-image">
+				<img src="http://womencommunity.qiniudn.com/landingpage/images/post-blog2-review2.png" alt="">
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-4 post-area">
+				<div class="blank-block">
+				</div>
+				<div class="post-image">
+					<img src="http://womencommunity.qiniudn.com/landingpage/images/post-blog3.png" alt="">
+				</div>
+		</div>
+		<div class="col-md-4 post-area">
+			<div class="blank-block">
+			</div>
+			<div class="post-image">
+				<img src="http://womencommunity.qiniudn.com/landingpage/images/post-blog3-review1.png" alt="">
+			</div>
+		</div>
+		<div class="col-md-4 post-area">
+			<div class="blank-block">
+			</div>
+			<div class="post-image">
+				<img src="http://womencommunity.qiniudn.com/landingpage/images/post-blog3-review2.png" alt="">
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<!-- END POST -->
 	
 </div>
 <!-- /END CONTAINER -->
@@ -379,6 +460,8 @@
 ============================== -->
 
 <script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.scrollUp.min.js"></script>
+
 <!-- <script src="js/smoothscroll.js"></script> -->
 <!-- <script src="js/jquery.scrollTo.min.js"></script> -->
 <!-- <script src="js/jquery.localScroll.min.js"></script> -->
