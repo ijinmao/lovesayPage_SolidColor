@@ -23,17 +23,19 @@ DEEP COLOR CODE: #005885
 
 .standard-button2 {
     background: #ff658c;
+    color: #ffffff;
 }
 
+
 .standard-button2:hover {
-    background: #005885;
+    /*background: #005885;*/
 }
 
 .btn-primary:focus, 
 .btn-primary:active, 
 .btn-primary.active, 
 .open .dropdown-toggle.btn-primary {
-    background: #005885;
+    background: #ff658c;
     border-color: inherit;
 }
 
