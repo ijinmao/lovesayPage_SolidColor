@@ -175,6 +175,8 @@ h5 {
 
 }
 
+
+
 /*---------------------------------------
    CUSTOM BUTTON              
 -----------------------------------------*/
@@ -373,7 +375,7 @@ header .home-contents {
 header .intro-section {
     text-align: left;
 }
-intro
+
 header .intro-section .standard-button {
     margin: 0;
 }
@@ -898,5 +900,29 @@ jdn add
     height: 50px;   /* Height of image */
 }
 
+.modal-body h5{
+    color: #ff658c;
+    text-align: left;
+}
+
+.modal-body p{
+    text-align: left;
+}
+
+.girlsHeadImage{
+    max-width: 40px;
+    margin: auto;
+    margin-left: 2px;
+    width: 100%;
+}
+
+.girlsHeadImage img{
+    width: 100%;
+}
+
+.qqParagraph p{
+    color: #ff658c;
+    text-align: center;
+}
 
 
