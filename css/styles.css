@@ -903,11 +903,31 @@ jdn add
 .modal-body h5{
     color: #ff658c;
     text-align: left;
+    /*margin-top: 30px;*/
+}
+
+.modal-body #margin-h{
+    margin-top: 35px;
 }
 
 .modal-body p{
     text-align: left;
+    margin-bottom: 2px;
 }
+
+::selection{
+    background-color: #fff3f6;
+    /*color: #ffffff;*/
+}
+
+::-moz-selection{
+    background-color: #fff3f6;
+}
+
+::-webkit-selection{
+    background-color: #fff3f6;
+}
+
 
 .girlsHeadImage{
     max-width: 40px;
